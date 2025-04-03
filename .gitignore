@@ -25,3 +25,28 @@ build/
 .vscode/
 .idea/
 .DS_Store
+
+# Test files
+coverage/
+.nyc_output/
+jest-coverage/
+__snapshots__/
+*.snap
+
+# Bun
+bun.lock
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Debug files
+.debug/
+debug.log
+
+# Cache
+.cache/
+.npm/
+.eslintcache

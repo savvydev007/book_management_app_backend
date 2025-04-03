@@ -6,7 +6,11 @@
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "test:unit": "jest src/__tests__/unit",
+    "test:e2e": "jest src/__tests__/e2e",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "author": "",
   "license": "MIT",
@@ -24,9 +28,14 @@
     "@types/bcryptjs": "^2.4.3",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.14",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/node": "^22.13.1",
+    "@types/supertest": "^6.0.3",
+    "jest": "^29.7.0",
     "nodemon": "^3.0.1",
+    "supertest": "^7.1.0",
+    "ts-jest": "^29.3.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
