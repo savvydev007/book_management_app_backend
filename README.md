@@ -1,4 +1,4 @@
-# Book Management System
+# Book Management App - Backend
 
 This is the backend service for the Book Management App, built with **Express.js**, **MongoDB**, and **TypeScript**.
 
